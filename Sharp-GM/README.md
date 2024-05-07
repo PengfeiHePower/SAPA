@@ -20,8 +20,8 @@ python -u brew_poison.py --net ResNet18 --dataset CIFAR10 --eps 16 --budget 0.00
 ```
 
 ## Some parameters for training uncertainty
---optimization: customized optimization
---mixing_method: augmentations such as Mixup, CutOut
---ensemble: ensemble
---targets: number of targets, support multiple targets
+- ```--optimization```: customized optimization
+- ```--mixing_method```: augmentations such as Mixup, CutOut
+- ```--ensemble```: ensemble
+- ```--targets```: number of targets, support multiple targets
 ...
